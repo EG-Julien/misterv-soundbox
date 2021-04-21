@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44037FC926307F8100808ACD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44037FC826307F8100808ACD /* AppDelegate.swift */; };
+		44037FCB26307F8100808ACD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44037FCA26307F8100808ACD /* SceneDelegate.swift */; };
+		44037FCD26307F8100808ACD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44037FCC26307F8100808ACD /* ViewController.swift */; };
+		44037FD026307F8100808ACD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44037FCE26307F8100808ACD /* Main.storyboard */; };
+		44037FD226307F8500808ACD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44037FD126307F8500808ACD /* Assets.xcassets */; };
+		44037FD526307F8500808ACD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44037FD326307F8500808ACD /* LaunchScreen.storyboard */; };
+		44037FE026307F8600808ACD /* MisterVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44037FDF26307F8600808ACD /* MisterVTests.swift */; };
+		44037FEB26307F8600808ACD /* MisterVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44037FEA26307F8600808ACD /* MisterVUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44037FDC26307F8600808ACD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44037FBD26307F8100808ACD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44037FC426307F8100808ACD;
+			remoteInfo = MisterV;
+		};
+		44037FE726307F8600808ACD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44037FBD26307F8100808ACD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44037FC426307F8100808ACD;
+			remoteInfo = MisterV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44037FC526307F8100808ACD /* MisterV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MisterV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44037FC826307F8100808ACD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		44037FCA26307F8100808ACD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		44037FCC26307F8100808ACD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44037FCF26307F8100808ACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44037FD126307F8500808ACD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44037FD426307F8500808ACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44037FD626307F8500808ACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44037FDB26307F8600808ACD /* MisterVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MisterVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44037FDF26307F8600808ACD /* MisterVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MisterVTests.swift; sourceTree = "<group>"; };
+		44037FE126307F8600808ACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44037FE626307F8600808ACD /* MisterVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MisterVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44037FEA26307F8600808ACD /* MisterVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MisterVUITests.swift; sourceTree = "<group>"; };
+		44037FEC26307F8600808ACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44037FC226307F8100808ACD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44037FD826307F8600808ACD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44037FE326307F8600808ACD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44037FBC26307F8100808ACD = {
+			isa = PBXGroup;
+			children = (
+				44037FC726307F8100808ACD /* MisterV */,
+				44037FDE26307F8600808ACD /* MisterVTests */,
+				44037FE926307F8600808ACD /* MisterVUITests */,
+				44037FC626307F8100808ACD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44037FC626307F8100808ACD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44037FC526307F8100808ACD /* MisterV.app */,
+				44037FDB26307F8600808ACD /* MisterVTests.xctest */,
+				44037FE626307F8600808ACD /* MisterVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44037FC726307F8100808ACD /* MisterV */ = {
+			isa = PBXGroup;
+			children = (
+				44037FC826307F8100808ACD /* AppDelegate.swift */,
+				44037FCA26307F8100808ACD /* SceneDelegate.swift */,
+				44037FCC26307F8100808ACD /* ViewController.swift */,
+				44037FCE26307F8100808ACD /* Main.storyboard */,
+				44037FD126307F8500808ACD /* Assets.xcassets */,
+				44037FD326307F8500808ACD /* LaunchScreen.storyboard */,
+				44037FD626307F8500808ACD /* Info.plist */,
+			);
+			path = MisterV;
+			sourceTree = "<group>";
+		};
+		44037FDE26307F8600808ACD /* MisterVTests */ = {
+			isa = PBXGroup;
+			children = (
+				44037FDF26307F8600808ACD /* MisterVTests.swift */,
+				44037FE126307F8600808ACD /* Info.plist */,
+			);
+			path = MisterVTests;
+			sourceTree = "<group>";
+		};
+		44037FE926307F8600808ACD /* MisterVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				44037FEA26307F8600808ACD /* MisterVUITests.swift */,
+				44037FEC26307F8600808ACD /* Info.plist */,
+			);
+			path = MisterVUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44037FC426307F8100808ACD /* MisterV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44037FEF26307F8600808ACD /* Build configuration list for PBXNativeTarget "MisterV" */;
+			buildPhases = (
+				44037FC126307F8100808ACD /* Sources */,
+				44037FC226307F8100808ACD /* Frameworks */,
+				44037FC326307F8100808ACD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MisterV;
+			productName = MisterV;
+			productReference = 44037FC526307F8100808ACD /* MisterV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44037FDA26307F8600808ACD /* MisterVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44037FF226307F8600808ACD /* Build configuration list for PBXNativeTarget "MisterVTests" */;
+			buildPhases = (
+				44037FD726307F8600808ACD /* Sources */,
+				44037FD826307F8600808ACD /* Frameworks */,
+				44037FD926307F8600808ACD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44037FDD26307F8600808ACD /* PBXTargetDependency */,
+			);
+			name = MisterVTests;
+			productName = MisterVTests;
+			productReference = 44037FDB26307F8600808ACD /* MisterVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		44037FE526307F8600808ACD /* MisterVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44037FF526307F8600808ACD /* Build configuration list for PBXNativeTarget "MisterVUITests" */;
+			buildPhases = (
+				44037FE226307F8600808ACD /* Sources */,
+				44037FE326307F8600808ACD /* Frameworks */,
+				44037FE426307F8600808ACD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44037FE826307F8600808ACD /* PBXTargetDependency */,
+			);
+			name = MisterVUITests;
+			productName = MisterVUITests;
+			productReference = 44037FE626307F8600808ACD /* MisterVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44037FBD26307F8100808ACD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					44037FC426307F8100808ACD = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					44037FDA26307F8600808ACD = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 44037FC426307F8100808ACD;
+					};
+					44037FE526307F8600808ACD = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 44037FC426307F8100808ACD;
+					};
+				};
+			};
+			buildConfigurationList = 44037FC026307F8100808ACD /* Build configuration list for PBXProject "MisterV" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44037FBC26307F8100808ACD;
+			productRefGroup = 44037FC626307F8100808ACD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44037FC426307F8100808ACD /* MisterV */,
+				44037FDA26307F8600808ACD /* MisterVTests */,
+				44037FE526307F8600808ACD /* MisterVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44037FC326307F8100808ACD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44037FD526307F8500808ACD /* LaunchScreen.storyboard in Resources */,
+				44037FD226307F8500808ACD /* Assets.xcassets in Resources */,
+				44037FD026307F8100808ACD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44037FD926307F8600808ACD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44037FE426307F8600808ACD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44037FC126307F8100808ACD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44037FCD26307F8100808ACD /* ViewController.swift in Sources */,
+				44037FC926307F8100808ACD /* AppDelegate.swift in Sources */,
+				44037FCB26307F8100808ACD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44037FD726307F8600808ACD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44037FE026307F8600808ACD /* MisterVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44037FE226307F8600808ACD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44037FEB26307F8600808ACD /* MisterVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44037FDD26307F8600808ACD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44037FC426307F8100808ACD /* MisterV */;
+			targetProxy = 44037FDC26307F8600808ACD /* PBXContainerItemProxy */;
+		};
+		44037FE826307F8600808ACD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44037FC426307F8100808ACD /* MisterV */;
+			targetProxy = 44037FE726307F8600808ACD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44037FCE26307F8100808ACD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44037FCF26307F8100808ACD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44037FD326307F8500808ACD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44037FD426307F8500808ACD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44037FED26307F8600808ACD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44037FEE26307F8600808ACD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44037FF026307F8600808ACD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8BCHSCT36Y;
+				INFOPLIST_FILE = MisterV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cc.kariboo.MisterV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44037FF126307F8600808ACD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8BCHSCT36Y;
+				INFOPLIST_FILE = MisterV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cc.kariboo.MisterV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		44037FF326307F8600808ACD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8BCHSCT36Y;
+				INFOPLIST_FILE = MisterVTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cc.kariboo.MisterVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MisterV.app/MisterV";
+			};
+			name = Debug;
+		};
+		44037FF426307F8600808ACD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8BCHSCT36Y;
+				INFOPLIST_FILE = MisterVTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cc.kariboo.MisterVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MisterV.app/MisterV";
+			};
+			name = Release;
+		};
+		44037FF626307F8600808ACD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8BCHSCT36Y;
+				INFOPLIST_FILE = MisterVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cc.kariboo.MisterVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MisterV;
+			};
+			name = Debug;
+		};
+		44037FF726307F8600808ACD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8BCHSCT36Y;
+				INFOPLIST_FILE = MisterVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cc.kariboo.MisterVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MisterV;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44037FC026307F8100808ACD /* Build configuration list for PBXProject "MisterV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44037FED26307F8600808ACD /* Debug */,
+				44037FEE26307F8600808ACD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44037FEF26307F8600808ACD /* Build configuration list for PBXNativeTarget "MisterV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44037FF026307F8600808ACD /* Debug */,
+				44037FF126307F8600808ACD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44037FF226307F8600808ACD /* Build configuration list for PBXNativeTarget "MisterVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44037FF326307F8600808ACD /* Debug */,
+				44037FF426307F8600808ACD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44037FF526307F8600808ACD /* Build configuration list for PBXNativeTarget "MisterVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44037FF626307F8600808ACD /* Debug */,
+				44037FF726307F8600808ACD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44037FBD26307F8100808ACD /* Project object */;
+}
