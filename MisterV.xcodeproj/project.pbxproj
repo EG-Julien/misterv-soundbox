@@ -15,6 +15,10 @@
 		44037FD526307F8500808ACD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44037FD326307F8500808ACD /* LaunchScreen.storyboard */; };
 		44037FE026307F8600808ACD /* MisterVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44037FDF26307F8600808ACD /* MisterVTests.swift */; };
 		44037FEB26307F8600808ACD /* MisterVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44037FEA26307F8600808ACD /* MisterVUITests.swift */; };
+		44037FFE2630886600808ACD /* cfbln.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44037FFC2630886600808ACD /* cfbln.mp3 */; };
+		44037FFF2630886600808ACD /* encore.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44037FFD2630886600808ACD /* encore.mp3 */; };
+		440380042630887100808ACD /* chomage.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 440380032630887100808ACD /* chomage.mp3 */; };
+		440380092630893100808ACD /* thug.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 440380082630893100808ACD /* thug.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		44037FE626307F8600808ACD /* MisterVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MisterVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44037FEA26307F8600808ACD /* MisterVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MisterVUITests.swift; sourceTree = "<group>"; };
 		44037FEC26307F8600808ACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44037FFC2630886600808ACD /* cfbln.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cfbln.mp3; sourceTree = "<group>"; };
+		44037FFD2630886600808ACD /* encore.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = encore.mp3; sourceTree = "<group>"; };
+		440380032630887100808ACD /* chomage.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chomage.mp3; sourceTree = "<group>"; };
+		440380082630893100808ACD /* thug.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thug.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,7 @@
 		44037FC726307F8100808ACD /* MisterV */ = {
 			isa = PBXGroup;
 			children = (
+				44037FFB263087E400808ACD /* Sounds */,
 				44037FC826307F8100808ACD /* AppDelegate.swift */,
 				44037FCA26307F8100808ACD /* SceneDelegate.swift */,
 				44037FCC26307F8100808ACD /* ViewController.swift */,
@@ -126,6 +135,17 @@
 				44037FEC26307F8600808ACD /* Info.plist */,
 			);
 			path = MisterVUITests;
+			sourceTree = "<group>";
+		};
+		44037FFB263087E400808ACD /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				440380082630893100808ACD /* thug.mp3 */,
+				44037FFC2630886600808ACD /* cfbln.mp3 */,
+				44037FFD2630886600808ACD /* encore.mp3 */,
+				440380032630887100808ACD /* chomage.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +251,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44037FFE2630886600808ACD /* cfbln.mp3 in Resources */,
+				44037FFF2630886600808ACD /* encore.mp3 in Resources */,
 				44037FD526307F8500808ACD /* LaunchScreen.storyboard in Resources */,
 				44037FD226307F8500808ACD /* Assets.xcassets in Resources */,
 				44037FD026307F8100808ACD /* Main.storyboard in Resources */,
+				440380042630887100808ACD /* chomage.mp3 in Resources */,
+				440380092630893100808ACD /* thug.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
